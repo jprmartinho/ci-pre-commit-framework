@@ -1,0 +1,10 @@
+[flake8]
+extend-ignore =
+    E305,
+max-line-length = 99
+
+# radon settings
+radon-max-cc = 10
+profile = black
+exclude =
+    venv

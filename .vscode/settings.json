@@ -1,0 +1,25 @@
+{
+  "editor.formatOnSave": true,
+  "editor.rulers": [
+    {
+      "color": "lightgreen",
+      "column": 99
+    }
+  ],
+  "black-formatter.args": ["--config ${workspaceFoder}/.black.toml"],
+  "pylint.args": ["--disable=missing-class-docstring"],
+  "[python]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": false
+    },
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  }
+}
