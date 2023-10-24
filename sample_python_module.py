@@ -5,8 +5,8 @@ import logging
 def main():
     """Run main function."""
     logger = logging.getLogger(__name__)
-
-    logger.info("An event occured.")
+    print("Event processing.")
+    logger.info("An event was processed.")
 
 
 if __name__ == "__main__":
